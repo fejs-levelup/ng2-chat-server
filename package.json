@@ -1,0 +1,25 @@
+{
+  "name": "ng2-chat-server",
+  "version": "0.0.1",
+  "description": "Weksockets server for ng2 levelup js course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fejs-levelup/ng2-chat-server.git"
+  },
+  "author": "do1tgood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fejs-levelup/ng2-chat-server/issues"
+  },
+  "homepage": "https://github.com/fejs-levelup/ng2-chat-server#readme",
+  "dependencies": {
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8",
+    "websocket": "^1.0.23"
+  }
+}
