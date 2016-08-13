@@ -4,7 +4,9 @@
   "description": "Weksockets server for ng2 levelup js course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "startws": "forever start --uid 'ws-server' app.js",
+    "foreverlist": "forever list",
+    "stopws": "forever stop ws-server"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   "dependencies": {
     "cors": "^2.7.1",
     "express": "^4.14.0",
+    "forever": "^0.15.2",
     "socket.io": "^1.4.8",
     "websocket": "^1.0.23"
   }
