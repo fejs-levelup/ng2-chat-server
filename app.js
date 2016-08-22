@@ -1,7 +1,7 @@
 var app = require('express'),
     server = require('http').createServer(app).listen(8888),
     io = require('socket.io')(server, {
-      origins: "localhost:3000"
+      origins: "localhost:*"
     });
 
 io.on('connection', function (socket) {
